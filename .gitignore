@@ -1,0 +1,35 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Env & secrets ─────────────────────────────────────────────
+.env
+.streamlit/secrets.toml
+
+# ── Large raw / intermediate data (optional: remove if you want them in repo) ──
+# Raw_Clinical_Trials.csv
+# Enriched_Clinical_Trials.csv
+# Cleaned_Biotech_List_Checkpoint.csv
+
+# ── User-generated data: AI reports, associated files, notes ─
+# These change frequently; track them in Git only if you want version history.
+# Uncomment the lines below to EXCLUDE them from Git:
+# AI_DD_REPORT/
+# associated_files/
+# associated_files_index.csv
+
+# ── IDE / OS ──────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Streamlit ─────────────────────────────────────────────────
+.streamlit/secrets.toml

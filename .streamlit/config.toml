@@ -1,0 +1,11 @@
+[server]
+# 本地运行时可按需调整；Streamlit Cloud 会忽略 headless/port
+headless = true
+enableCORS = false
+
+[theme]
+base = "light"
+primaryColor = "#2d5a87"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f4f8"
+textColor = "#1e3a5f"
