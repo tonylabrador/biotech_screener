@@ -1,0 +1,26 @@
+﻿Symbol,Company_Name,Asset_Name,Highest_Phase,Market_Status,Active_Trial_Count,Total_Enrollment,Therapeutic_Area,Detailed_Conditions,Trial_NCTIds
+CHIZF,China Traditional Chinese Medicine Holdings Co. Limited,Zilongjin tablet combined with immunotherapy,PHASE3,Investigational,1,405,Oncology,Non-Small Cell Lung Cancer; Electroacupuncture; Immune Checkpoint Inhibitors,NCT07034326
+ILPLF,Island Pharmaceuticals Limited,Nivolumab,PHASE2,Investigational,2,68,Oncology,Melanoma; Ovarian Cancer; Fallopian Tube Cancer; Primary Peritoneal Carcinoma; Extra Renal Origin; Clear Cell Adenocarcinoma,"NCT02656706, NCT03355976"
+ORPOF,OSE Immunotherapeutics SA,FOLFIRI,PHASE2,Investigational,1,106,"Gastroenterology, Oncology",Pancreatic Ductal Adenocarcinoma; Locally Advanced Cancer; Metastatic Cancer,NCT03806309
+ORPOF,OSE Immunotherapeutics SA,Part A: OSE-279,PHASE2,Investigational,1,41,Oncology,Solid Advanced Tumor; Lymphoma; NSCLC (Non-small Cell Lung Cancer),NCT05751798
+ORPOF,OSE Immunotherapeutics SA,Part B: OSE-279 600 mg and OSE2101,PHASE2,Investigational,1,41,Oncology,Solid Advanced Tumor; Lymphoma; NSCLC (Non-small Cell Lung Cancer),NCT05751798
+ORPOF,OSE Immunotherapeutics SA,Part C: OSE-279 600 mg - HLA-A2 negative,PHASE2,Investigational,1,41,Oncology,Solid Advanced Tumor; Lymphoma; NSCLC (Non-small Cell Lung Cancer),NCT05751798
+ORPOF,OSE Immunotherapeutics SA,Part C: OSE-279 600 mg - HLA-A2 positif,PHASE2,Investigational,1,41,Oncology,Solid Advanced Tumor; Lymphoma; NSCLC (Non-small Cell Lung Cancer),NCT05751798
+ORPOF,OSE Immunotherapeutics SA,Part C: OSE-279 600 mg and OSE2101 - HLA-A2 positive,PHASE2,Investigational,1,41,Oncology,Solid Advanced Tumor; Lymphoma; NSCLC (Non-small Cell Lung Cancer),NCT05751798
+ORPOF,OSE Immunotherapeutics SA,Pembrolizumab 25 MG/ML [Keytruda],PHASE2,Marketed,1,180,Oncology,Platinum-sensitive Ovarian Cancer; Relapsed Ovarian Cancer,NCT04713514
+PBH,Prestige Consumer Healthcare Inc.,Gemcitabine (1000 mg/m^2),PHASE2,Marketed,1,80,"Gastroenterology, Oncology",Pancreatic Cancer,NCT05141149
+PBH,Prestige Consumer Healthcare Inc.,PBP1510 (400mg/16mL),PHASE2,Investigational,1,80,"Gastroenterology, Oncology",Pancreatic Cancer,NCT05141149
+UTHR,United Therapeutics Corporation,testosterone cypionate,PHASE2,Marketed,1,50,Oncology,Prostate Cancer,NCT06059118
+VIR,"Vir Biotechnology, Inc.",VIR-5818,PHASE2,Investigational,1,645,Oncology,Locally Advanced or Metastatic HER2-Expressing Cancers,NCT05356741
+VIR,"Vir Biotechnology, Inc.",pembrolizumab,PHASE2,Marketed,1,645,Oncology,Locally Advanced or Metastatic HER2-Expressing Cancers,NCT05356741
+YIHCF,"Sunshine Lake Pharma Co., Ltd.",HEC169096,PHASE2,Investigational,1,456,"Oncology, Others",Advanced Solid Tumor,NCT05451602
+ZLDPF,Zealand Pharma A/S,Lu-PSMA,PHASE2,Investigational,1,162,"Oncology, Urology/Nephrology",Metastatic Castration-Resistant Prostate Cancer,NCT04419402
+CLDX,"Celldex Therapeutics, Inc.",CDX-1140,PHASE1,Investigational,2,31,Oncology,HER2-negative Breast Cancer; Metastatic Breast Cancer; Malignant Epithelial Neoplasms,"NCT05029999, NCT05349890"
+BEAM,Beam Therapeutics Inc.,Allogeneic anti-CD7 CAR-T cells (BEAM-201),PHASE1,Investigational,1,33,"Hematology, Oncology",T-Cell Acute Lymphoblastic Leukemia/Lymphoma,NCT06934382
+CHIZF,China Traditional Chinese Medicine Holdings Co. Limited,Pyrotinib normal dose group,PHASE1,Investigational,1,200,Oncology/Hematology,Breast Cancer,NCT06770296
+CLDX,"Celldex Therapeutics, Inc.",NEOVAX,PHASE1,Investigational,1,30,Oncology/Hematology,Melanoma; Metastatic Melanoma,NCT04930783
+CLDX,"Celldex Therapeutics, Inc.",Nivolumab,PHASE1,Marketed,1,30,Oncology/Hematology,Melanoma; Metastatic Melanoma,NCT04930783
+CLDX,"Celldex Therapeutics, Inc.",PLD Chemotherapy,PHASE1,Investigational,1,30,Oncology/Hematology,HER2-negative Breast Cancer; Metastatic Breast Cancer,NCT05029999
+CLDX,"Celldex Therapeutics, Inc.",TCR-transduced T cells,PHASE1,Investigational,1,1,Oncology/Hematology,Malignant Epithelial Neoplasms,NCT05349890
+DAWN,"Day One Biopharmaceuticals, Inc.",DAY301,PHASE1,Investigational,1,254,Oncology/Hematology,Advanced or Metastatic Solid Tumors,NCT06752681
+FYBGF,Formycon AG,FYB206,PHASE1,Investigational,1,96,Oncology/Hematology,Melanoma; Stage II; Melanoma Stage III,NCT06551064

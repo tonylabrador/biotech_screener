@@ -1,0 +1,65 @@
+{
+  "portfolio_name": "均衡型组合2",
+  "total_capital": 40000.0,
+  "cash": 8188.34,
+  "holdings": [
+    {
+      "symbol": "NVO",
+      "shares": 207,
+      "avg_cost": 38.58,
+      "amount": 7986.06,
+      "allocation_pct": 20.0,
+      "rationale": "多肽GLP-1锚定，稳定组合基准波动率 12"
+    },
+    {
+      "symbol": "MDGL",
+      "shares": 9,
+      "avg_cost": 432.83,
+      "amount": 3895.47,
+      "allocation_pct": 9.7,
+      "rationale": "MASH 商业化龙头，抗纤维化小分子 8"
+    },
+    {
+      "symbol": "VRDN",
+      "shares": 141,
+      "avg_cost": 28.34,
+      "amount": 3995.94,
+      "allocation_pct": 10.0,
+      "rationale": "IGF-1R 拮抗剂，静脉与皮下注射双重管线，数据确定性极高 30"
+    },
+    {
+      "symbol": "VERA",
+      "shares": 102,
+      "avg_cost": 39.07,
+      "amount": 3985.14,
+      "allocation_pct": 10.0,
+      "rationale": "BAFF/APRIL 双靶点抑制，IgAN 三期数据具备压倒性优势 35"
+    },
+    {
+      "symbol": "GPCR",
+      "shares": 69,
+      "avg_cost": 57.73,
+      "amount": 3983.37,
+      "allocation_pct": 10.0,
+      "rationale": "非多肽口服 GLP-1，规避大分子产能瓶颈 38"
+    },
+    {
+      "symbol": "WVE",
+      "shares": 304,
+      "avg_cost": 13.12,
+      "amount": 3988.48,
+      "allocation_pct": 10.0,
+      "rationale": "siRNA 与 RNA 编辑，提供核酸药物专属机制敞口 43"
+    },
+    {
+      "symbol": "DNTH",
+      "shares": 61,
+      "avg_cost": 65.2,
+      "amount": 3977.2,
+      "allocation_pct": 9.9,
+      "rationale": "活性 C1s 补体抑制剂，免疫学市场的高安全性破局者 48"
+    }
+  ],
+  "created_at": "2026-03-08",
+  "saved_at": "2026-03-08 01:06:59"
+}

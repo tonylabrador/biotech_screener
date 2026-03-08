@@ -25,6 +25,9 @@ build/
 # associated_files/
 # associated_files_index.csv
 
+# ── 旧版目录（不需要上传）──────────────────────────────────────
+non_onc_biotech_dashboard/
+
 # ── IDE / OS ──────────────────────────────────────────────────
 .vscode/
 .idea/

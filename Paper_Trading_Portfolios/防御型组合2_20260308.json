@@ -1,0 +1,65 @@
+{
+  "portfolio_name": "防御型组合2",
+  "total_capital": 40000.0,
+  "cash": 8174.739999999998,
+  "holdings": [
+    {
+      "symbol": "NVO",
+      "shares": 207,
+      "avg_cost": 38.58,
+      "amount": 7986.06,
+      "allocation_pct": 20.0,
+      "rationale": "GLP-1 垄断者，庞大的现金流与管线防御基础 12"
+    },
+    {
+      "symbol": "ACAD",
+      "shares": 180,
+      "avg_cost": 22.16,
+      "amount": 3988.8,
+      "allocation_pct": 10.0,
+      "rationale": "商业化中枢神经双引擎，2026年冲击12.8亿营收 17"
+    },
+    {
+      "symbol": "MIRM",
+      "shares": 46,
+      "avg_cost": 86.3,
+      "amount": 3969.8,
+      "allocation_pct": 9.9,
+      "rationale": "IBAT 抑制剂，商业化持续高增长，自由现金流为正 19"
+    },
+    {
+      "symbol": "MDGL",
+      "shares": 9,
+      "avg_cost": 432.83,
+      "amount": 3895.47,
+      "allocation_pct": 9.7,
+      "rationale": "THR-beta 激动剂，垄断MASH蓝海，年化营收逼近10亿 8"
+    },
+    {
+      "symbol": "LQDA",
+      "shares": 111,
+      "avg_cost": 36.03,
+      "amount": 3999.33,
+      "allocation_pct": 10.0,
+      "rationale": "吸入式曲前列尼尔，PAH市场破局者，已实现持续盈利 21"
+    },
+    {
+      "symbol": "ARDX",
+      "shares": 646,
+      "avg_cost": 6.19,
+      "amount": 3998.74,
+      "allocation_pct": 10.0,
+      "rationale": "NHE3 抑制剂，Ibsrela 销售环比激增，财务彻底反转 25"
+    },
+    {
+      "symbol": "CYTK",
+      "shares": 66,
+      "avg_cost": 60.41,
+      "amount": 3987.06,
+      "allocation_pct": 10.0,
+      "rationale": "心脏肌球蛋白抑制剂，FDA新获批，进入商业化放量期 27"
+    }
+  ],
+  "created_at": "2026-03-08",
+  "saved_at": "2026-03-08 01:06:59"
+}

@@ -1,0 +1,44 @@
+{
+  "portfolio_name": "防御型（Risk-Averse）",
+  "total_capital": 40000.0,
+  "cash": 4282.370000000003,
+  "holdings": [
+    {
+      "symbol": "MDGL",
+      "shares": 18.0,
+      "avg_cost": 432.83,
+      "allocation_pct": 20.0,
+      "rationale": "Madrigal Pharmaceuticals (MDGL) 被赋予满额权重，因为它是MASH（代谢功能障碍相关脂肪性肝炎）领域的绝对领导者。"
+    },
+    {
+      "symbol": "ACAD",
+      "shares": 361.0,
+      "avg_cost": 22.16,
+      "allocation_pct": 20.0,
+      "rationale": "Acadia Pharmaceuticals (ACAD) 提供了神经系统疾病领域极其罕见的稳定现金流。"
+    },
+    {
+      "symbol": "CYTK",
+      "shares": 132.0,
+      "avg_cost": 60.41,
+      "allocation_pct": 20.0,
+      "rationale": "Cytokinetics (CYTK) 作为心肌肌球蛋白抑制剂领域的破局者，其核心药物Myqorzo已于二零二五年十二月获得FDA正式批准，并在二零二六年一月迅速转化为实际处方收入。"
+    },
+    {
+      "symbol": "MIRM",
+      "shares": 69.0,
+      "avg_cost": 86.3,
+      "allocation_pct": 15.0,
+      "rationale": "MIRM凭借Livmarli与胆汁酸产品线在二零二五年实现了超预期的五亿两千一百三十万美元全球销售额。"
+    },
+    {
+      "symbol": "ARDX",
+      "shares": 969.0,
+      "avg_cost": 6.19,
+      "allocation_pct": 15.0,
+      "rationale": "ARDX则提供了极高的增长斜率，其主打产品Ibsrela在二零二五年实现了百分之七十三的惊人年增长率，净销售额突破两亿七千四百万美元。"
+    }
+  ],
+  "created_at": "2026-03-07",
+  "saved_at": "2026-03-07 22:31:21"
+}

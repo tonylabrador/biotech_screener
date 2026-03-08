@@ -1,0 +1,51 @@
+{
+  "portfolio_name": "进攻型（Catalyst-Driven / High-Beta）",
+  "total_capital": 40000.0,
+  "cash": 79.80000000000291,
+  "holdings": [
+    {
+      "symbol": "VERA",
+      "shares": 204.0,
+      "avg_cost": 39.07,
+      "allocation_pct": 20.0,
+      "rationale": "VERA（双靶点BAFF/APRIL）在关键Phase 3数据读出前或NDA阶段展现出的压倒性统计学优势，使其具备了极高的并购溢价潜力与二元期权博弈价值。"
+    },
+    {
+      "symbol": "VRDN",
+      "shares": 282.0,
+      "avg_cost": 28.34,
+      "allocation_pct": 20.0,
+      "rationale": "VRDN（IGF-1R）在关键Phase 3数据读出前或NDA阶段展现出的压倒性统计学优势，使其具备了极高的并购溢价潜力与二元期权博弈价值。"
+    },
+    {
+      "symbol": "DNLI",
+      "shares": 406.0,
+      "avg_cost": 19.69,
+      "allocation_pct": 20.0,
+      "rationale": "Denali Therapeutics (DNLI) 迎来其成立以来最重要的时刻，二零二六年四月五日的PDUFA不仅是对其核心管线DNL310（tividenofusp alfa）的审批，更是对其革命性酶转运载体（ETV）平台能否有效跨越血脑屏障的首次商业化验证。"
+    },
+    {
+      "symbol": "HUMA",
+      "shares": 5405.0,
+      "avg_cost": 1.11,
+      "allocation_pct": 15.0,
+      "rationale": "Humacyte (HUMA) 则是一场纯粹基于时间节点的催化剂深度博弈。"
+    },
+    {
+      "symbol": "LQDA",
+      "shares": 166.0,
+      "avg_cost": 36.03,
+      "allocation_pct": 15.0,
+      "rationale": "Liquidia (LQDA) 的投资逻辑建立在对监管政策与专利法律的深度剖析之上。"
+    },
+    {
+      "symbol": "GPCR",
+      "shares": 69.0,
+      "avg_cost": 57.73,
+      "allocation_pct": 10.0,
+      "rationale": "Structure Therapeutics (GPCR) 则是针对当今医药界最庞大风口——GLP-1受体激动剂的精准下注。"
+    }
+  ],
+  "created_at": "2026-03-07",
+  "saved_at": "2026-03-07 22:31:21"
+}
