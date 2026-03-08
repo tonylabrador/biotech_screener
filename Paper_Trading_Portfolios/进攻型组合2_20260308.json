@@ -1,0 +1,81 @@
+{
+  "portfolio_name": "进攻型组合2",
+  "total_capital": 40000.0,
+  "cash": 4158.6500000000015,
+  "holdings": [
+    {
+      "symbol": "VRDN",
+      "shares": 141,
+      "avg_cost": 28.34,
+      "amount": 3995.94,
+      "allocation_pct": 10.0,
+      "rationale": "PDUFA (6月) / 关键皮下注射3期数据读出 (上半年) 31"
+    },
+    {
+      "symbol": "VERA",
+      "shares": 102,
+      "avg_cost": 39.07,
+      "amount": 3985.14,
+      "allocation_pct": 10.0,
+      "rationale": "PDUFA (7月) / 商业化发布准备 35"
+    },
+    {
+      "symbol": "APGE",
+      "shares": 54,
+      "avg_cost": 73.05,
+      "amount": 3944.7,
+      "allocation_pct": 9.9,
+      "rationale": "APG777 2期52周终点数据 (3月) / H2 启动3期 53"
+    },
+    {
+      "symbol": "DNLI",
+      "shares": 203,
+      "avg_cost": 19.69,
+      "amount": 3997.07,
+      "allocation_pct": 10.0,
+      "rationale": "DNL310 罕见病 PDUFA (4月5日) 54"
+    },
+    {
+      "symbol": "CLDX",
+      "shares": 135,
+      "avg_cost": 29.43,
+      "amount": 3973.05,
+      "allocation_pct": 9.9,
+      "rationale": "Barzolvolimab 3期顶线数据 (四季度) 51"
+    },
+    {
+      "symbol": "WVE",
+      "shares": 304,
+      "avg_cost": 13.12,
+      "amount": 3988.48,
+      "allocation_pct": 10.0,
+      "rationale": "肥胖症与AATD多重数据读出 (一季度) 43"
+    },
+    {
+      "symbol": "DNTH",
+      "shares": 61,
+      "avg_cost": 65.2,
+      "amount": 3977.2,
+      "allocation_pct": 9.9,
+      "rationale": "CIDP / MMN 中期2/3期疗效数据分析 (下半年) 48"
+    },
+    {
+      "symbol": "GPCR",
+      "shares": 69,
+      "avg_cost": 57.73,
+      "amount": 3983.37,
+      "allocation_pct": 10.0,
+      "rationale": "肥胖症3期全面启动 / 淀粉林受体激动剂1期启动 39"
+    },
+    {
+      "symbol": "ABEO",
+      "shares": 824,
+      "avg_cost": 4.85,
+      "amount": 3996.4,
+      "allocation_pct": 10.0,
+      "rationale": "EB-101 商业化放量，极高的统计学确定性 (81%愈合率) 58"
+    }
+  ],
+  "created_at": "2026-03-08",
+  "saved_at": "2026-03-08 01:06:59"
+}

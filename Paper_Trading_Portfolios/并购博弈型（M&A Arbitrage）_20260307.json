@@ -1,0 +1,51 @@
+{
+  "portfolio_name": "并购博弈型（M&A Arbitrage）",
+  "total_capital": 40000.0,
+  "cash": 179.2300000000032,
+  "holdings": [
+    {
+      "symbol": "VERA",
+      "shares": 204.0,
+      "avg_cost": 39.07,
+      "allocation_pct": 20.0,
+      "rationale": "VERA的核心资产atacicept不仅在机制上与povetacicept同源，且目前临床进度显著领先，已经获得了FDA的优先审查认定。"
+    },
+    {
+      "symbol": "VRDN",
+      "shares": 282.0,
+      "avg_cost": 28.34,
+      "allocation_pct": 20.0,
+      "rationale": "VRDN的吸引力绝非仅仅停留在甲状腺眼病（TED）这一单一适应症上，其深不可测的研发底座中隐藏的新一代FcRn抑制剂（VRDN-008）才是诸多Big Pharma长期觊觎的万能免疫靶点。"
+    },
+    {
+      "symbol": "CYTK",
+      "shares": 132.0,
+      "avg_cost": 60.41,
+      "allocation_pct": 20.0,
+      "rationale": "作为一款能够直接挑战BMS（Camzyos）霸主地位的心血管重磅新药，阿斯利康是能够最大化Myqorzo商业价值的完美放大器。"
+    },
+    {
+      "symbol": "GPCR",
+      "shares": 138.0,
+      "avg_cost": 57.73,
+      "allocation_pct": 20.0,
+      "rationale": "对罗氏或亟需夯实减重管线的辉瑞而言，直接整体收购GPCR将一劳永逸地解决管线深度与专利护城河的双重痛点。"
+    },
+    {
+      "symbol": "APGE",
+      "shares": 54.0,
+      "avg_cost": 73.05,
+      "allocation_pct": 10.0,
+      "rationale": "APGE主攻的IL-13与OX40通路，各自具有First-in-class或Best-in-class的潜力。"
+    },
+    {
+      "symbol": "CLDX",
+      "shares": 135.0,
+      "avg_cost": 29.43,
+      "allocation_pct": 10.0,
+      "rationale": "CLDX聚焦的抗KIT机制，各自具有First-in-class或Best-in-class的潜力。"
+    }
+  ],
+  "created_at": "2026-03-07",
+  "saved_at": "2026-03-07 22:31:21"
+}
