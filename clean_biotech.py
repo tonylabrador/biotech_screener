@@ -7,6 +7,7 @@ Output : Final_Non_Oncology_Pharma.csv
 """
 
 import io
+import json
 import re
 import sys
 import time
@@ -141,8 +142,23 @@ oncology_re = re.compile(
     re.IGNORECASE,
 )
 
+# ── 白名单：即使触发过滤规则也强制保留 ────────────────────────────
+WHITELIST_JSON = DATA_DIR / "whitelist_symbols.json"
+if WHITELIST_JSON.exists():
+    with open(WHITELIST_JSON, encoding="utf-8") as f:
+        _wl = json.load(f)
+    WHITELIST_SYMBOLS = {str(e.get("symbol", "")).strip().upper() for e in _wl if e.get("symbol")}
+    print(f"  白名单已加载：{sorted(WHITELIST_SYMBOLS)}")
+else:
+    WHITELIST_SYMBOLS = set()
+    print(f"  白名单文件 {WHITELIST_JSON.name} 不存在，跳过")
+
 
 def should_drop(row: pd.Series) -> bool:
+    sym = str(row.get("Symbol", "")).strip().upper()
+    if sym in WHITELIST_SYMBOLS:
+        return False  # 白名单公司永不剔除
+
     industry = str(row.get("Industry", "")).lower()
     summary = str(row.get("Business Summary", ""))
 

@@ -154,6 +154,57 @@ Streamlit Community Cloud is **stateless** — the filesystem resets on each red
 
 ---
 
+## 📋 公司白名单（whitelist_symbols.json）
+
+部分非肿瘤公司因 yfinance 的 Business Summary 中**偶然出现**肿瘤相关词汇（如 `tumor`、`oncology`、`leukemia`），会被 `clean_biotech.py` 的自动过滤规则误判为肿瘤公司并剔除。白名单文件可强制保留这些公司。
+
+### 文件位置
+
+```
+biotech_screener/whitelist_symbols.json
+```
+
+### 文件格式（JSON，便于在 Cursor 中直接编辑）
+
+```json
+[
+  {
+    "symbol": "SYRE",
+    "reason": "IBD/rheumatic focus; yfinance summary contains 'tumor' (anti-TNF context) but NOT oncology company"
+  },
+  {
+    "symbol": "SGMT",
+    "reason": "NASH/metabolic focus; yfinance summary contains 'oncology' incidentally but NOT oncology company"
+  },
+  {
+    "symbol": "TENX",
+    "reason": "Cardiopulmonary focus; yfinance summary contains 'leukemia' incidentally but NOT oncology company"
+  }
+]
+```
+
+| 字段 | 说明 |
+|------|------|
+| `symbol` | 股票代码（大小写不敏感） |
+| `reason` | 备注说明（可选，便于以后查阅原因） |
+
+### 如何添加新公司
+
+1. 打开 `whitelist_symbols.json`，在数组中追加一个新对象，例如：
+   ```json
+   {
+     "symbol": "NEWCO",
+     "reason": "Non-oncology company incorrectly flagged"
+   }
+   ```
+2. 注意逗号：最后一个对象前需加逗号，最后一个对象后不加逗号
+3. 保存文件
+4. **重新运行 Step 1 pipeline**：`python clean_biotech.py`，再运行后续步骤重新生成 CSV 数据
+
+> ⚠️ 白名单只对 `should_drop()` 过滤生效。如果某公司本来就不在原始 xlsx 数据源里，需要先手动添加到 `Final_Non_Oncology_Pharma.csv`。
+
+---
+
 ## 🛠 Tech Stack
 
 | Component | Library |

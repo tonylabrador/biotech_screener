@@ -9,17 +9,20 @@ VRBCF,Virbac SA,3640816000,Drug Manufacturers - General
 HYPMY,Hypera S.A.,2958873000,Drug Manufacturers - Specialty & Generic
 GENSY,Genus plc,2849504500,Biotechnology
 HTSUF,"Hisamitsu Pharmaceutical Co., Inc.",2710159600,Drug Manufacturers - Specialty & Generic
+DMPHF,Dermapharm Holding SE,2495117000,Drug Manufacturers - Specialty & Generic
 PAHC,Phibro Animal Health Corporation,2085916500,Drug Manufacturers - Specialty & Generic
 TSMRF,Tsumura & Co.,1970215300,Drug Manufacturers - Specialty & Generic
 AUPH,Aurinia Pharmaceuticals Inc.,1923553800,Biotechnology
 CURLF,"Curaleaf Holdings, Inc.",1909968100,Drug Manufacturers - Specialty & Generic
 SMNR,"Semnur Pharmaceuticals, Inc.",1841673100,Biotechnology
+ATAI,AtaiBeckley Inc.,1587142500,Biotechnology
 VETOF,Vetoquinol SA,1190542000,Drug Manufacturers - Specialty & Generic
 XERS,"Xeris Biopharma Holdings, Inc.",1108374300,Biotechnology
 TCNNF,Trulieve Cannabis Corp.,1081126300,Drug Manufacturers - Specialty & Generic
 CRON,Cronos Group Inc.,1045026560,Drug Manufacturers - Specialty & Generic
 VTYX,"Ventyx Biosciences, Inc.",1001780500,Biotechnology
 GNMLF,"Genomma Lab Internacional, S.A.B. de C.V.",997299300,Drug Manufacturers - Specialty & Generic
+MDCLF,MedinCell S.A.,940338750,Biotechnology
 TLRY,"Tilray Brands, Inc.",922734800,Drug Manufacturers - Specialty & Generic
 BIOA,"BioAge Labs, Inc.",900183300,Drug Manufacturers - Specialty & Generic
 GYRE,"Gyre Therapeutics, Inc.",763479200,Biotechnology
@@ -45,16 +48,16 @@ XOMA,XOMA Royalty Corporation,334839100,Biotechnology
 XOMAO,XOMA Royalty Corporation 8.375% DP PFD B,334839100,Biotechnology
 LRMR,"Larimar Therapeutics, Inc.",315828540,Biotechnology
 RAONF,Racura Oncology Ltd,300148480,
-DXNH.F,Eurobio Scientific Société anonyme,274503200,
+OPGN,"OpGen, Inc.",297149980,Capital Markets
 CBUS,"Cibus, Inc.",249282960,Biotechnology
 WDBG,Woodbrook Group Holdings Inc.,248553000,Capital Markets
 TSNDF,TerrAscend Corp.,246225090,Drug Manufacturers - Specialty & Generic
 EAPIF,Euroapi S.A.,239519680,Drug Manufacturers - Specialty & Generic
 SRZN,"Surrozen, Inc.",231428370,Biotechnology
+KLRS,"Kalaris Therapeutics, Inc.",205165520,Biotechnology
 OVID,Ovid Therapeutics Inc.,196578370,Biotechnology
 OGI,Organigram Global Inc.,192310400,Drug Manufacturers - Specialty & Generic
 HTTIF,"HighTide Therapeutics, Inc.",186948530,Biotechnology
-BGM,BGM Group Ltd.,182120340,Drug Manufacturers - Specialty & Generic
 BBIXF,Bonus BioGroup Ltd.,177772700,Biotechnology
 CNBRF,CANbridge Pharmaceuticals Inc.,172511140,
 ADOCY,Adocia SA,158297340,Biotechnology
@@ -77,14 +80,15 @@ OKYO,OKYO Pharma Limited,85788220,Biotechnology
 UNBSF,Uni-Bio Science Group Limited,83956580,Biotechnology
 TXTM,"ProText Mobility, Inc.",78637480,Biotechnology
 MCRB,"Seres Therapeutics, Inc.",78252390,Biotechnology
+PLRX,"Pliant Therapeutics, Inc.",78040720,Biotechnology
 EXOZ,"eXoZymes, Inc.",75602320,Biotechnology
 PTHS,Pelthos Therapeutics Inc.,75194020,Biotechnology
 MVRBF,Medivir AB (publ),73907960,
 ENTX,Entera Bio Ltd.,72454440,Biotechnology
 HRPMF,Herantis Pharma Oyj,66884852,
-CING,Cingulate Inc.,66053070,Biotechnology
 CINGW,Cingulate Inc. WT EXP 121026,66053070,
-ETHZ,ETHZilla Corporation,65592196,Biotechnology
+CING,Cingulate Inc.,66053070,Biotechnology
+ETHZ,ETHZilla Corporation,65592196,Software - Application
 SPRB,"Spruce Biosciences, Inc.",62316940,Biotechnology
 NSRX,Nasus Pharma Ltd.,61831610,Drug Manufacturers - General
 ATHE,Alterity Therapeutics Limited,61430016,Biotechnology
@@ -108,9 +112,9 @@ FRPRQ,4D Pharma PLC.,40552650,
 TYPTF,Entropy Neurodynamics Limited,39884164,Biotechnology
 CXXIF,C21 Investments Inc.,38755380,Drug Manufacturers - Specialty & Generic
 ZYBT,Zhengye Biotechnology Holding Limited,38164276,Drug Manufacturers - Specialty & Generic
-MDDVF,Medical Developments International Limited,35794850,Drug Manufacturers - Specialty & Generic
 MRMD,MariMed Inc.,34641450,Drug Manufacturers - Specialty & Generic
 AEON,"AEON Biopharma, Inc.",31375792,Biotechnology
+RLYB,Rallybio Corporation,30785144,Biotechnology
 EMYRF,Emyria Limited,30182516,
 DYAI,"Dyadic International, Inc.",29601618,Biotechnology
 DVHGF,Devonian Health Group Inc.,28236140,Biotechnology

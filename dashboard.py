@@ -1465,57 +1465,66 @@ with _tab_portfolio:
 
     st.markdown("---")
 
-    # ── 2. 资产配置参数输入 ───────────────────────────────────────────
+    # ── 2. 资产配置参数输入（用 st.form 包裹，避免每次改动触发重跑）────
     st.markdown("### ⚙️ Step 2：配置投资参数")
 
-    _param_c1, _param_c2 = st.columns(2)
-    with _param_c1:
-        _total_capital = st.number_input(
-            "💰 计划投资总金额 ($)",
-            min_value=1000,
-            max_value=10_000_000,
-            value=10_000,
-            step=1000,
-            format="%d",
-            key="po_capital",
-        )
-        _horizon = st.selectbox(
-            "🎯 投资周期预期",
-            options=[
-                "未来 6 个月（博弈核心催化剂）",
-                "1-2 年（等待管线读出与商业化）",
-                "3 年以上（长期价值回归）",
-            ],
-            index=0,
-            key="po_horizon",
-        )
-    with _param_c2:
-        _all_po_symbols = _archive_symbols if _archive_symbols else sorted(
-            df_summary["Symbol"].dropna().astype(str).str.strip().str.upper().unique().tolist()
-        )
-        _selected_symbols = st.multiselect(
-            "🏢 参与优化的公司（可剔除不想纳入的）",
-            options=_all_po_symbols,
-            default=_all_po_symbols,
-            key="po_symbols",
-        )
-        _risk_notes = st.text_area(
-            "📝 额外风险偏好或约束（可选）",
-            placeholder="例如：不持有任何 Phase 1 管线；单票不超过 20%；回避 CNS 赛道……",
-            height=100,
-            key="po_extra_notes",
-        )
+    _all_po_symbols = _archive_symbols if _archive_symbols else sorted(
+        df_summary["Symbol"].dropna().astype(str).str.strip().str.upper().unique().tolist()
+    )
 
-    st.markdown("---")
+    with st.form("po_params_form"):
+        _param_c1, _param_c2 = st.columns(2)
+        with _param_c1:
+            _total_capital_input = st.number_input(
+                "💰 计划投资总金额 ($)",
+                min_value=1000,
+                max_value=10_000_000,
+                value=st.session_state.get("po_capital_confirmed", 10_000),
+                step=1000,
+                format="%d",
+            )
+            _horizon_input = st.selectbox(
+                "🎯 投资周期预期",
+                options=[
+                    "未来 6 个月（博弈核心催化剂）",
+                    "1-2 年（等待管线读出与商业化）",
+                    "3 年以上（长期价值回归）",
+                ],
+                index=["未来 6 个月（博弈核心催化剂）", "1-2 年（等待管线读出与商业化）", "3 年以上（长期价值回归）"].index(
+                    st.session_state.get("po_horizon_confirmed", "未来 6 个月（博弈核心催化剂）")
+                ),
+            )
+        with _param_c2:
+            _selected_symbols_input = st.multiselect(
+                "🏢 参与优化的公司（可剔除不想纳入的）",
+                options=_all_po_symbols,
+                default=st.session_state.get("po_symbols_confirmed", _all_po_symbols),
+            )
+            _risk_notes_input = st.text_area(
+                "📝 额外风险偏好或约束（可选）",
+                value=st.session_state.get("po_risk_confirmed", ""),
+                placeholder="例如：不持有任何 Phase 1 管线；单票不超过 20%；回避 CNS 赛道……",
+                height=100,
+            )
+        _gen_prompt_btn = st.form_submit_button("⚡ 生成资产配置 Prompt", type="primary")
 
-    _gen_prompt_btn = st.button("⚡ 生成资产配置 Prompt", type="primary", key="po_gen_prompt")
     if _gen_prompt_btn:
+        st.session_state["po_capital_confirmed"] = _total_capital_input
+        st.session_state["po_horizon_confirmed"] = _horizon_input
+        st.session_state["po_symbols_confirmed"] = _selected_symbols_input
+        st.session_state["po_risk_confirmed"] = _risk_notes_input
         st.session_state["po_prompt_generated"] = True
 
     st.markdown("---")
 
     # ── 3. 生成 Gemini Deep Research Prompt ──────────────────────────
     st.markdown("### 🤖 Step 3：生成资产配置 Prompt")
+
+    # 从已确认的 session_state 参数生成 Prompt（不受 form 内实时改动影响）
+    _total_capital = st.session_state.get("po_capital_confirmed", 10_000)
+    _horizon = st.session_state.get("po_horizon_confirmed", "未来 6 个月（博弈核心催化剂）")
+    _selected_symbols = st.session_state.get("po_symbols_confirmed", [])
+    _risk_notes = st.session_state.get("po_risk_confirmed", "")
 
     if not st.session_state.get("po_prompt_generated"):
         st.info("请在上方配置好参数后点击 **⚡ 生成资产配置 Prompt** 按钮。")
@@ -1569,6 +1578,9 @@ with _tab_portfolio:
 - 收购时间窗口预测（12 个月内 / 1-2 年内 / 2 年以上）
 - 预估收购溢价区间（相对当前市值的 %）
 - 博弈逻辑支撑
+
+对每个组合中你的选择在组合内进行排序，从最好到最差，并给出理由。
+同时对于那些你没有选择的公司（在任一组合中都没有选择），逐一给出不选的理由（注意这个只需要给一次， 基于那些在任何这4个组合中都没有被选的公司）
 
 ---
 

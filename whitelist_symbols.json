@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "SYRE",
+    "reason": "IBD/rheumatic focus; yfinance summary contains 'tumor' (anti-TNF context) but NOT oncology company"
+  },
+  {
+    "symbol": "SGMT",
+    "reason": "NASH/metabolic focus; yfinance summary contains 'oncology' incidentally but NOT oncology company"
+  },
+  {
+    "symbol": "TENX",
+    "reason": "Cardiopulmonary focus; yfinance summary contains 'leukemia' incidentally but NOT oncology company"
+  }
+]
